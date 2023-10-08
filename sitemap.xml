@@ -9,7 +9,38 @@
 
 <url>
   <loc>https://www.tripmegood.com/</loc>
-  <lastmod>2022-10-12T06:25:20+00:00</lastmod>
+  <lastmod>2023-09-15T11:31:27+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://www.tripmegood.com/about.html</loc>
+  <lastmod>2023-09-15T11:31:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.tripmegood.com/honeymoons.html</loc>
+  <lastmod>2023-09-15T11:31:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.tripmegood.com/about</loc>
+  <lastmod>2023-09-15T11:31:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.tripmegood.com/contact</loc>
+  <lastmod>2023-09-15T11:31:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.tripmegood.com/honeymoons</loc>
+  <lastmod>2023-09-15T11:31:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.tripmegood.com/plan-trip</loc>
+  <lastmod>2023-09-15T11:31:27+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 
 
