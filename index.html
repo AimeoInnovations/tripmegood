@@ -222,7 +222,7 @@ gtag('config', 'AW-789735691');
 	<div class="container py-lg-5 py-sm-4">
 		<div class="row">
 			<div class="col-lg-6 about-right mt-lg-0 mt-5 contact-left-form">
-				<form action="https://docs.google.com/forms/d/e/1FAIpQLSdoCZ9Hal74l_yDYjvaPDU6lBRUc5qsDWVJwZCQ8zSHgFKd3w/formResponse" method="POST" id="bootstrapForm" class="row">
+				<form action="https://docs.google.com/forms/d/e/1FAIpQLSdoCZ9Hal74l_yDYjvaPDU6lBRUc5qsDWVJwZCQ8zSHgFKd3w/formResponse" method="POST" id="bootstrapForm2" class="row">
 						<div class="col-sm-6 form-group contact-forms">
 						  <input type="text" name="entry.909707606" class="form-control" placeholder="Trip Destination" required="">
 						</div>
@@ -728,11 +728,26 @@ gtag('config', 'AW-789735691');
 										data: extraData,
 										dataType: 'jsonp',
 										error: function () {
-											// alert('Thank you for planning your trip with TripMeGood. Our tripmasters will get in touch with you shortly.')
+											//alert('Thank you for planning your trip with TripMeGood. Our tripmasters will get in touch with you shortly.')
 											window.location = 'thanks.html'
 										}
 									})
-								})
+								}) </script>
+								<script>
+								$('#bootstrapForm2').submit(function (event) {
+									event.preventDefault()
+									var extraData = {}
+									$('#bootstrapForm2').ajaxSubmit({
+										data: extraData,
+										dataType: 'jsonp',
+										error: function () {
+											//alert('Thank you for planning your trip with TripMeGood. Our tripmasters will get in touch with you shortly.')
+											window.location = 'thanks.html'
+										}
+									})
+								})</script>
+								<script>
+								
 								
 									var modal = document.getElementById("myModal");
 									var span = document.getElementsByClassName("close")[0];
