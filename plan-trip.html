@@ -569,20 +569,23 @@ function fixStepIndicator(n) {
     }
 }
 	</script>
-
 	
 	<script>
 	$('#bootstrapForm').submit(function (event) {
 		event.preventDefault()
 		var extraData = {}
+		var a = document.getElementById("909707606").value;
 		$('#bootstrapForm').ajaxSubmit({
 			data: extraData,
 			dataType: 'jsonp',
 			error: function () {
-				//alert('Thank you for planning your trip with TripMeGood. Our tripmasters will get in touch with you shortly.')
-				window.location = 'thanks.html'
+				if (a == "Others") {
+				alert('Thank you for planning your trip with TripMeGood. Our tripmasters will get in touch with you shortly.'); }
+				else {
+				window.location = 'thanks.html'; }
 			}
 		})
 	}) </script>
+	
 </body>
 </html>
